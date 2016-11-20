@@ -1,0 +1,18 @@
+﻿#container {
+    text-align: center;
+    width: 100%;
+}
+
+#game {
+    display: inline-block;
+}
+
+#canvas {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#score, #status {
+    font-size: 20pt;
+    margin: 10px;
+}
