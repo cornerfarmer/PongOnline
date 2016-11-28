@@ -16,3 +16,11 @@
     font-size: 20pt;
     margin: 10px;
 }
+
+#controlbar {
+    margin-top: 75px;
+}
+
+#controlbar button {
+    margin: 0 10px;
+}

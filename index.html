@@ -1,9 +1,9 @@
 ﻿<html>
 <head>
-    <script type="text/javascript" src="fileadmin/tictactoe/jquery/jquery-2.2.0.js"></script>
-    <script type="text/javascript" src="fileadmin/tictactoe/synaptic/synaptic.js"></script>
-    <script src="fileadmin/tictactoe/script.js" type="text/javascript"></script>
-    <link href="fileadmin/tictactoe/style.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="fileadmin/pong/jquery/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="fileadmin/pong/synaptic/synaptic.js"></script>
+    <script src="fileadmin/pong/script.js" type="text/javascript"></script>
+    <link href="fileadmin/pong/style.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
     <div id="container">
@@ -11,6 +11,17 @@
             <div id="score"></div>
             <canvas id="canvas"></canvas>
             <div id="status"></div>
+            <div id="controlbar">
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="setGameType(0)">
+                    Human vs Evolution AI
+                </button>
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="setGameType(1)">
+                    Human vs DQN AI
+                </button>
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="setGameType(2)">
+                    DQN AI vs Evolution AI
+                </button>
+            </div>
         </div>
     </div>
 </body>
